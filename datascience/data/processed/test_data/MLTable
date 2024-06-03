@@ -1,0 +1,6 @@
+paths:
+  - pattern: ./*.csv
+transformations:
+  - read_delimited:
+      delimiter: ","
+  - drop_columns: []
